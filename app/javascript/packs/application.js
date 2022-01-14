@@ -5,19 +5,19 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
-//= require toastr
+
 
 import Rails from "@rails/ujs"
 import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
-import Toastr from "toastr"
+
 import "channels"
 require("bootstrap");
 require("jquery");
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
-Toastr.start()
+
 import 'bootstrap'
 
 
